@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_hawao.mk
+    $(LOCAL_DIR)/aosp_hawao.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_hawao-user \
-    lineage_hawao-userdebug \
-    lineage_hawao-eng
+    aosp_hawao-user \
+    aosp_hawao-userdebug \
+    aosp_hawao-eng
