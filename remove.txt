@@ -4,6 +4,3 @@ kernel/motorola
 vendor/motorola
 prebuilts/clang/host/linux-x86/clang-r487747c
 hardware/lineage/compat
-hardware/qcom-caf/sm8250/audio
-hardware/qcom-caf/sm8250/mefia
-hardware/qcom-caf/sm8250/display 

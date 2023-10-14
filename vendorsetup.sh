@@ -39,13 +39,3 @@ echo 'Cloning Clang 17.0.2 [7/8]'
 
 rm -rf prebuilts/clang/host/linux-x86/clang-r487747c
 git clone https://gitlab.com/FPSensor/clang_r487747x prebuilts/clang/host/linux-x86/clang-r487747c --depth=1
-
-
-echo 'Cloning Qualcomm HALs [8/8]'
-
-rm -rf hardware/qcom-caf/sm8250/audio
-git clone https://github.com/AbrarNoob/android_hardware_qcom_audio -b lineage-20.0-caf-sm8250 hardware/qcom-caf/sm8250/audio
-rm -rf hardware/qcom-caf/sm8250/media
-git clone https://github.com/LineageOS/android_hardware_qcom_media -b lineage-20.0-caf-sm8250 hardware/qcom-caf/sm8250/media
-rm -rf hardware/qcom-caf/sm8250/display
-git clone https://github.com/AbrarNoob/android_hardware_qcom_display -b lineage-20.0-caf-sm8250 hardware/qcom-caf/sm8250/display
